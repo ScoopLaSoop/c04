@@ -6,7 +6,7 @@
 /*   By: luproven <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 13:26:51 by luproven          #+#    #+#             */
-/*   Updated: 2022/09/23 14:52:28 by luproven         ###   ########.fr       */
+/*   Updated: 2022/09/27 11:17:21 by luproven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,4 @@ int	ft_atoi(char *str)
 		c++;
 	}
 	return (res * s);
-}
-
-#include <stdio.h>
-
-int	main()
-{
-	int	n;
-	n = ft_atoi("");
-	printf("%d", n);
 }
